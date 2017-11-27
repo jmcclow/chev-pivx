@@ -1,0 +1,13 @@
+rpcuser=san3243423taclause
+rpcpassword=sadfds$#Gdsfs##SF...,DSFF
+rpcallowip=127.0.0.1
+listen=1
+server=1
+daemon=1
+logtimestamps=1
+maxconnections=256
+masternode=1
+externalip=<%= node['ipaddress'] %>
+bind=<%= node['chef_node']['network']['bind'] %>
+masternodeaddr=<%= node['chef_node']['network']['bind'] %>:51472
+masternodeprivkey=<%= node['chef_node']['keys']['priv'] %>
